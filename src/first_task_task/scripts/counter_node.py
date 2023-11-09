@@ -3,7 +3,7 @@ import rospy
 from std_msgs.msg import Float32 
 
 def pub () : 
-    rospy.init_node("counter_node") 
+    rospy.init_node("counter_node ") 
     pub = rospy.Publisher("counter_node_topic", Float32 , queue_size=2) 
     message = Float32 
     message.data = 20  
