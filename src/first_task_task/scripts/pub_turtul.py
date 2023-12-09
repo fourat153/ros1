@@ -4,7 +4,7 @@ from geometry_msgs.msg import Twist
 
 def pub () : 
     rospy.init_node("node_tur") 
-    pub = rospy.Publisher("turtle1/cmd_vel", Twist , queue_size=2) 
+    pub = rospy.Publisher("turtle1/cmd_vel ", Twist , queue_size=2) 
     message = Twist()
     message.angular.z = 0.5 
     message.linear.x = 0.5
