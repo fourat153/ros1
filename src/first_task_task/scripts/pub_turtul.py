@@ -16,4 +16,4 @@ if __name__ == "__main__"  :
       try :  
        pub() 
       except : 
-        print('error in node counter')
+        print('error in node counter ')
